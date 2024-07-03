@@ -3,12 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@paypal/react-paypal-js": "^8.5.0",
+    "@relume_io/relume-tailwind": "^0.2.0",
+    "@relume_io/relume-ui": "^0.2.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.3",
+    "datatables.net": "^2.0.8",
+    "datatables.net-bs4": "^2.0.8",
+    "datatables.net-dt": "^2.0.8",
+    "datatables.net-responsive-dt": "^3.0.2",
+    "ejs": "^3.1.10",
+    "glightbox": "^3.3.0",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-data-table-component": "^7.6.2",
     "react-dom": "^18.2.0",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "recharts": "^2.12.7",
+    "sweetalert2": "^11.11.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +64,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
   }
 }

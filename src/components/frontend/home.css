@@ -1,0 +1,294 @@
+
+.container-fluid {
+    padding: 20px;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+  .h3.mb-0 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  .carousel-item{
+    height: 550px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-caption.text-left {
+    text-align: left;
+    left: 10%;
+    right: 10%;
+    color: #fff;
+  }
+  .carousel-caption.text-left h3 {
+    font-size: 4rem;
+    color: #fff;
+  }
+  /* --- */
+.hero{
+  background: url('../../assets/img/hero-bg.png');
+  background-size: cover;
+  height: 80vh;
+}
+.hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+section .movee{
+  animation: move-right 1.3s ease-out forwards ;
+
+}
+@media (max-width: 740px) {
+  .hero{
+    height: 100vh;
+  }
+  .hero h1 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes move-right {
+  0% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+/* center text */
+.values-section {
+  text-align: center;
+  margin-top: 50px;
+  flex:1;
+}
+
+.values-button {
+  background-color: #f0f4ff;
+  color: #4169e1;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.values-heading {
+  color: #08117a57;
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 740px) {
+  .values-section{
+    margin-top: 100px;
+  }
+}
+/* product */
+@media (max-width: 740px) {
+  section .searcH {
+    margin-top: 10px;
+  }
+  .card {
+    display: grid;
+    margin-top: 5px;
+  }
+}
+
+.productCard .card img{
+  max-height: 300px;
+}
+
+.productCard .btn{
+  background-color: #f0f4ff;
+  color: #4169e1;
+  border-radius:0 ;
+}
+/* ProductDetails */
+
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  overflow-x: hidden;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+      opacity: 0;
+      transform: translateX(100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary,
+.btn-danger {
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  background-color: #004085;
+  transform: translateY(-2px);
+}
+
+/* brands */
+
+.brands.section {
+  padding: 10px 0;
+  background-color: #f9f9f9;
+}
+
+
+.brand-logo-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.brand-logos {
+  display: flex;
+  animation: move-logos 15s linear infinite;
+}
+
+.brand-logo {
+  flex: 0 0 auto;
+  padding: 40px;
+}
+
+.brand-logo img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.brand-logo:hover {
+  transform: scale(1.1);
+}
+
+@keyframes move-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+}
+
+.footer {
+  background: linear-gradient(to right, #adefff, #bedfdd8f);
+}
+.footer  ul *, .icones *{
+  color: #000;
+}
+
+/* aboutjs */
+
+.display-4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+/* contact */
+
+.display-4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .lead {
+    font-size: 1rem;
+  }
+
+  .list-group-item {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+  }
+}
